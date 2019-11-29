@@ -17,7 +17,7 @@ const addTask = (e) => {
     
     const titleTask = addInput.value;
 
-    if(titleTask === "") return; //jeśli input Title Task pozostanie pusty, po kliknięciu 'Dodaj' nic się nie wykona
+    if(titleTask === "") return;
     const task = document.createElement('li');
     task.className = 'list-group-item';
     task.innerHTML = '<button class="btn btn-light"> <i class="fa fa-check"></i> </button>' + '<span>' + titleTask + '</span>' + `<button class="btn btn-danger"> <i class="fa fa-trash"></i> </button>`;
