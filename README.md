@@ -2,4 +2,4 @@
 Simple to do list app - JS / Bootstrap / HTML / CSS.
 App has been created during JS learning.
 <br>
-Click the to check it: https://wk-90.github.io/to-do-list/.
+Click the link to check it: https://wk-90.github.io/to-do-list/.
